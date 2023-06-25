@@ -1,15 +1,17 @@
-package com.yux1.hidden_weapons.item;
+package com.yux1.gloaming.item;
 
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    COPPER(2, 560, 10.0f, 2.5f, 24, () -> {
+
+    COPPER(2, 200, 5.0f, 1.5f, 10, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.COPPER_INGOT});
     });
 

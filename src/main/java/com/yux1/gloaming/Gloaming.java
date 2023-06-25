@@ -1,14 +1,14 @@
-package com.yux1.hidden_weapons;
+package com.yux1.gloaming;
 
-import com.yux1.hidden_weapons.block.ModBlocks;
-import com.yux1.hidden_weapons.item.ModItems;
+import com.yux1.gloaming.block.ModBlocks;
+import com.yux1.gloaming.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class HiddenWeapons implements ModInitializer {
+public class Gloaming implements ModInitializer {
 
-	public static final String MOD_ID = "hidden_weapons";
+	public static final String MOD_ID = "gloaming";
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
 

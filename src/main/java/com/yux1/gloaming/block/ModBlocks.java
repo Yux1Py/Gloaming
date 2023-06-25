@@ -1,11 +1,8 @@
-package com.yux1.hidden_weapons.block;
+package com.yux1.gloaming.block;
 
-import com.yux1.hidden_weapons.HiddenWeapons;
-import com.yux1.hidden_weapons.item.ModItemGroup;
+import com.yux1.gloaming.Gloaming;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -26,25 +23,25 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup) {
         registerBlockItem(name, block, itemGroup);
-        return Registry.register(Registry.BLOCK, new Identifier(HiddenWeapons.MOD_ID, name), block);
+        return Registry.register(Registry.BLOCK, new Identifier(Gloaming.MOD_ID, name), block);
     }
 
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup, String tooltipKey) {
         registerBlockItem(name, block, itemGroup, tooltipKey);
-        return Registry.register(Registry.BLOCK, new Identifier(HiddenWeapons.MOD_ID, name), block);
+        return Registry.register(Registry.BLOCK, new Identifier(Gloaming.MOD_ID, name), block);
     }
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
-        return Registry.register(Registry.BLOCK, new Identifier(HiddenWeapons.MOD_ID, name), block);
+        return Registry.register(Registry.BLOCK, new Identifier(Gloaming.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup itemGroup) {
-        return Registry.register(Registry.ITEM, new Identifier(HiddenWeapons.MOD_ID, name),
+        return Registry.register(Registry.ITEM, new Identifier(Gloaming.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(itemGroup)));
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup itemGroup, String tooltipKey) {
-        return Registry.register(Registry.ITEM, new Identifier(HiddenWeapons.MOD_ID, name),
+        return Registry.register(Registry.ITEM, new Identifier(Gloaming.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(itemGroup))
                 {
                     @Override
@@ -55,6 +52,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        HiddenWeapons.LOGGER.info("Registering ModBlocks for " + HiddenWeapons.MOD_ID);
+        Gloaming.LOGGER.info("Registering ModBlocks for " + Gloaming.MOD_ID);
     }
 }

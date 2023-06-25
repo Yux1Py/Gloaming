@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "hidden_weapons",
+  "id": "gloaming",
   "version": "${version}",
 
-  "name": "Hidden Weapons",
+  "name": "Gloaming",
   "description": " ",
   "authors": [
-    "Me!"
+    "Yux1!"
   ],
   "contact": {
     "homepage": " ",
-    "sources": "https://github.com/Yux1Py/Hidden-Weapons/tree/master"
+    "sources": "https://github.com/Yux1Py/Gloaming"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/hidden_weapons/icon.png",
+  "icon": "assets/gloaming/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.yux1.hidden_weapons.HiddenWeapons"
+      "com.yux1.gloaming.Gloaming"
     ]
   },
   "mixins": [
-    "hidden_weapons.mixins.json"
+    "gloaming.mixins.json"
   ],
 
   "depends": {

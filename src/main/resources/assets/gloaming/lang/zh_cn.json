@@ -1,0 +1,11 @@
+{
+  "item.gloaming.wooden_dagger": "木制匕首",
+  "item.gloaming.stone_dagger": "石制匕首",
+  "item.gloaming.copper_dagger": "铜制匕首",
+  "item.gloaming.iron_dagger": "铁制匕首",
+  "item.gloaming.golden_dagger": "金制匕首",
+  "item.gloaming.diamond_dagger": "钻石匕首",
+  "item.gloaming.netherite_dagger": "下界合金匕首",
+
+  "itemGroup.gloaming.gloaming": "薄暮"
+}

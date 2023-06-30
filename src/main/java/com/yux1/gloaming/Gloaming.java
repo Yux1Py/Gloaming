@@ -1,6 +1,7 @@
 package com.yux1.gloaming;
 
 import com.yux1.gloaming.block.ModBlocks;
+import com.yux1.gloaming.enchantment.ModEnchantment;
 import com.yux1.gloaming.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -17,6 +18,7 @@ public class Gloaming implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEnchantment.registerModEnchantments();
 
 		LOGGER.info("This is Hidden Weapons Saying!!!");
 	}

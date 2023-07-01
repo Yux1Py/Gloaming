@@ -7,7 +7,16 @@
   "item.gloaming.diamond_dagger": "Diamond Dagger",
   "item.gloaming.netherite_dagger": "Netherite Dagger",
 
+  "item.gloaming.copper_knuckle_dusters": "Copper Knuckle Dusters",
+  "item.gloaming.iron_knuckle_dusters": "Iron Knuckle Dusters",
+  "item.gloaming.golden_knuckle_dusters": "Golden Knuckle Dusters",
+  "item.gloaming.diamond_knuckle_dusters": "Diamond Knuckle Dusters",
+  "item.gloaming.netherite_knuckle_dusters": "Netherite Knuckle Dusters",
+
   "enchantment.gloaming.lurk": "Lurk",
+
+  "category.gloaming.key": "Gloaming",
+  "key.gloaming.operate": "Fetch",
 
   "itemGroup.gloaming.gloaming": "Gloaming"
 }

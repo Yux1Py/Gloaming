@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.yux1.gloaming.Gloaming"
+    ],
+    "client": [
+      "com.yux1.gloaming.GloamingClient"
     ]
   },
   "mixins": [

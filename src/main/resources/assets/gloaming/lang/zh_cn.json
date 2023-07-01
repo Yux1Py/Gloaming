@@ -7,7 +7,16 @@
   "item.gloaming.diamond_dagger": "钻石匕首",
   "item.gloaming.netherite_dagger": "下界合金匕首",
 
+  "item.gloaming.copper_knuckle_dusters": "铜制指虎",
+  "item.gloaming.iron_knuckle_dusters": "铁制指虎",
+  "item.gloaming.golden_knuckle_dusters": "金制指虎",
+  "item.gloaming.diamond_knuckle_dusters": "钻石指虎",
+  "item.gloaming.netherite_knuckle_dusters": "下界合金指虎",
+
   "enchantment.gloaming.lurk": "潜伏",
+
+  "category.gloaming.key": "薄暮",
+  "key.gloaming.operate": "取物",
 
   "itemGroup.gloaming.gloaming": "薄暮"
 }
